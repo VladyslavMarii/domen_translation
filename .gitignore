@@ -1,0 +1,240 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Machine Learning & Data Science
+# Datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.feather
+*.arrow
+
+# Model files
+*.model
+*.keras
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.safetensors
+models/
+checkpoints/
+saved_models/
+
+# Training logs and outputs
+logs/
+runs/
+wandb/
+tensorboard_logs/
+outputs/
+experiments/
+results/
+plots/
+figures/
+*.log
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
+
+# TensorBoard
+events.out.tfevents.*
+
+# Hydra
+.hydra/
+outputs/
+
+# DVC (Data Version Control)
+.dvc
+.dvcignore
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.lnk
+
+# GPU specific
+*.cu
+*.cuh
+
+# Specific to this project
+# Training outputs
+attention_visualizations/
+token_visualizations/
+image_transformations/
+reconstructed_images/
+
+# Dataset files
+paired_train_dataset.h5
+paired_val_dataset.h5
+paired_test_dataset.h5
+5000_storage.h5
+
+# Pretrained models
+pretrained_large_dataset_feature.keras
+
+# Results and visualizations
+results.png
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Configuration overrides
+config_local.py
+local_config.py
+
+# Backup files
+*.bak
+*.backup
+
+# Cache directories
+.cache/
+cache/
