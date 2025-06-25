@@ -1,0 +1,2 @@
+PATCH_SIZE = 40
+NUM_HEADS = 8

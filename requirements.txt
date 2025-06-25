@@ -1,0 +1,13 @@
+tensorflow>=2.12.0
+tf-keras
+numpy
+matplotlib
+opencv-python
+Pillow
+tqdm
+pynvml
+pathlib
+jupyter
+ipython
+h5py
+glob3
